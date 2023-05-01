@@ -16,6 +16,9 @@
 
 # Soluzione
 Per realizzare il subnetting di 4 sottoreti delle stessa dimensione utillizziamo come subnetmask 255.255.255.192 in modo da creare 4 sottoreti grandi 64.
+
 Quindi assegnamo a ogni porta del router un host della sottorete e subnetmask 255.255.255.192.
+
 Succesivamente completiamo la configurazione di tutti i pc con un host libero della sottorete e sempre la stessa subnetmask.
+
 Infine completiamo assegando ai pc come default gateway a ognuno l'indirizzo IP della porta del router alla quale sono collegati.
